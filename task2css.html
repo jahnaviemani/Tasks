@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        .c1 {
+            border: 1px solid black;
+            width: 220px;
+            position: fixed;
+        }
+
+        .c2 {
+            border: 1px solid black;
+            width: 325px;
+            height: 50px;
+            margin-left: 500px;
+            margin-top: 0px;
+            position: relative;
+        }
+
+        .u1 {
+            width: 200px;
+            margin-left: 10px;
+            margin-top: 13px;
+        }
+
+        .u2 {
+            width: 310px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color:#d4cece;
+            overflow: hidden;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #7dd6d7;
+        }
+
+        li a {
+            display: block;
+            color: blue;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: rgb(255, 183, 0);
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+  <h2><a href="index.html">INDEX PAGE</a></h2>
+
+    <h2 style="font-family:Calibri; font-size:14px;">Vertical Navigation Bar</h2>
+    <div class="c1">
+        <ul class="u1">
+            <li><a class="active" style="padding: 10px 8px;" href="">Home</a></li>
+            <li><a style="padding: 10px 8px;" href="https://www.java.com/en/">Java</a></li>
+            <li><a style="padding: 10px 8px;" href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+            <li><a style="padding: 10px 8px;" href="https://www.w3schools.com/html/">HTML</a></li>
+            <li><a style="padding: 10px 8px;" href="https://www.geeksforgeeks.org/bootstrap/">Bootstrap</a></li>
+        </ul>
+    </div>
+
+    <h2 style="font-family:Calibri; font-size:14px; margin-left:550px;">Horizontal Navigation Bar</h2>
+    <div class="c2">
+        <ul class="u2" style="margin-left:15px; margin-top:6px; margin-bottom:6px; margin-right:20px;">
+            <li style="float:left;"><a class="active" style="padding: 10px 10px;  background-color:#7d7878; border-right:1px solid blue;"
+                    href="">Home</a></li>
+            <li style="float:left;"><a style="padding: 10px 10px; background-color: #d4cece; border-right:1px solid blue;"
+                    href="https://www.java.com/en/">Java</a></li>
+            <li style="float:left;"><a style="padding: 10px 10px; background-color: #d4cece; border-right:1px solid blue;"
+                    href="https://www.w3schools.com/html/">HTML</a></li>
+            <li style="float:left;"><a style="padding: 10px 10px; background-color: #d4cece; border-right:1px solid blue;"
+                    href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
